@@ -11,6 +11,7 @@ console.log(typeof edad);
 
 console.log(puedoConducir);
 console.log(typeof puedoConducir);
+console.log("-".repeat(25));
 
 //Operadores Aritméticos
 const numero1 = 20;
@@ -25,7 +26,7 @@ console.log(numero1 * numero2);
 console.log(numero1 / numero2);
 
 console.log(numero1 % numero2);
-
+console.log("-".repeat(25));
 //Operadores de asignación y comparación
 const numero3 = 15;
 const numero4 = 20;
@@ -47,13 +48,14 @@ if (numero5 < numero4) {
 	console.log("El " + numero5 + " es menor que %d", numero4);
 }
 
-if (numero3 != numero5) {
+if (numero3 !== numero5) {
 	console.log("El %d distinto del " + numero5, numero3);
 }
 
-if (numero3 == numero4) {
+if (numero3 === numero4) {
 	console.log("El %d igual al %d", numero3, numero4);
 }
+console.log("-".repeat(25));
 //Condicionales
 const numero6 = 10;
 const numero7 = 20;
@@ -115,7 +117,7 @@ if (numero8 % 5 == 0) {
 } else {
 	console.log("El numero8 no es multiplo de 5");
 }
-
+console.log("-".repeat(25));
 //Ciclos
 
 //1 al 10
@@ -164,7 +166,7 @@ for (let i = 1; i <= 10; i++) {
 		//no existen multiplos de 3 y cinco que esten entre el 1 y el 10 el primero es el 15 o el 0
 	}
 }
-
+console.log("-".repeat(25));
 //Funciones
 function mayus(palabra) {
 	return palabra.toUpperCase();
@@ -189,7 +191,7 @@ function mult(n1, n2) {
 function largo(palabra) {
 	return palabra.length;
 }
-
+console.log("-".repeat(25));
 //Arrays
 const numeros = [1, 2, 3, 4, 5];
 const palabras = ["hola","chao"];
@@ -224,7 +226,7 @@ function soloPares(num){
 }
 
 console.log(soloPares(numeros));
-
+console.log("-".repeat(25));
 //Objetos
 const persona={
 nombre:"Juan",
